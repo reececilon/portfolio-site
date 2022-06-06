@@ -8,6 +8,10 @@ body {
   font-family: 'Rubik';
 }
 
+.nav-link:hover {
+    color: #556B2F;
+}
+
 .main {
   background-color: #556B2F;
   height: 100vh;
