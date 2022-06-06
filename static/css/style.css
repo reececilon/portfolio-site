@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Rubik&display=swap');
+
+body {
+  font-family: 'Rubika';
+}
+
+.navbar-nav {
+  font-family: 'Rubik';
+}
+
+.main {
+  background-color: #556B2F;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro > h1, .intro > p{
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro > p {
+  font-size: 3rem;
+}
+
+.discription {
+  background-color: #ffffff;
+}
+
+.head-2 {
+  color: #556B2F;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
+.head-2-white {
+  color: #ffffff;
+  margin: 20px;
+  font-family: 'Roboto';
+}
+
+.line {
+  margin: auto;
+}
+
+.profile {
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Rubik';
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.circle {
+  width: 18rem;
+  height: 18rem;
+  border-radius: 50%;
+  border: 1px solid #556B2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img {
+/*   width: 15rem; */
+  height: 15rem;
+/*   border-radius: 50%; */
+}
+
+.truth-false {
+  background-color: #556B2F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.layer {
+  background-color: #ffffff;
+  margin: 4rem;
+  border-radius: 15px;
+}
+
+.list {
+  margin-bottom: 2rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  width: 95%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.item > p, .item > i {
+  margin: 0.5rem;
+}
+
+.item > p {
+  font-family: 'Rubik';
+}
+
+.img-background {
+  background: url(https://images.unsplash.com/photo-1456030680012-9aa5bd962cc4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740) no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.contain {
+  width: 50%;
+  border-radius: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  font-family: 'Rubik';
+}
+
+.btn-green {
+  background-color: #ffffff;
+  border: 1px solid #556B2F;
+  color: #556B2F;
+}
+
+.btn-green:hover {
+  background-color: #556B2F;
+  color: #ffffff;
+}
+
+.green {
+  color: #556B2F;
+}
+
+.big {
+  font-size: 3rem;
+  margin-right: 10px;
+}
+
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .left, .right {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contain {
+    width: 90%;
+  }
+}
