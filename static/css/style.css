@@ -8,6 +8,20 @@ body {
   font-family: 'Rubik';
 }
 
+.navlink {
+    color: rgba(0,0,0,.5);
+    padding-right: 0;
+    padding-left: 0;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.navlink:hover {
+    color: #556B2F;
+    text-decoration: none;
+}
+
 .main {
   background-color: #556B2F;
   height: 100vh;
